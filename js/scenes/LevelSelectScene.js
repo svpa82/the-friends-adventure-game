@@ -1,10 +1,10 @@
 // Välj bana för det valda djuret. Banor låses upp när man klarar den föregående.
 
-import { drawBackdrop } from "../ui/background.js?v=9";
-import { makeButton } from "../ui/button.js?v=9";
-import { getCharacter } from "../data/characters.js?v=9";
-import { LEVELS } from "../data/levels.js?v=9";
-import { getSelectedCharacter, getProgress, getCoins } from "../systems/save.js?v=9";
+import { drawBackdrop } from "../ui/background.js?v=10";
+import { makeButton } from "../ui/button.js?v=10";
+import { getCharacter } from "../data/characters.js?v=10";
+import { LEVELS } from "../data/levels.js?v=10";
+import { getSelectedCharacter, getProgress, getCoins } from "../systems/save.js?v=10";
 
 export default class LevelSelectScene extends Phaser.Scene {
   constructor() {
@@ -47,11 +47,12 @@ export default class LevelSelectScene extends Phaser.Scene {
       })
       .setOrigin(0, 0.5);
 
-    // Ban-knappar
-    const startX = w / 2 - ((LEVELS.length - 1) * 200) / 2;
+    // Ban-knappar (avståndet anpassas så alla banor får plats i bredd)
+    const spacing = Math.min(200, (w - 80) / LEVELS.length);
+    const startX = w / 2 - ((LEVELS.length - 1) * spacing) / 2;
     LEVELS.forEach((level, i) => {
       const unlocked = i <= cleared;
-      this._makeLevelButton(level, i, startX + i * 200, 270, unlocked, charId);
+      this._makeLevelButton(level, i, startX + i * spacing, 270, unlocked, charId);
     });
 
     // Butik + tillbaka
@@ -72,7 +73,7 @@ export default class LevelSelectScene extends Phaser.Scene {
   }
 
   _makeLevelButton(level, index, x, y, unlocked, charId) {
-    const cardW = 170;
+    const cardW = 150;
     const cardH = 180;
     const g = this.add.graphics();
     g.fillStyle(unlocked ? 0xffffff : 0xcfcfcf, unlocked ? 0.92 : 0.8);

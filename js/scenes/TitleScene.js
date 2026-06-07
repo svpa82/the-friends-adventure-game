@@ -1,7 +1,7 @@
 // Titelskärm: logga, de tre djuren som studsar, och en STARTA-knapp.
 
-import { drawBackdrop } from "../ui/background.js?v=9";
-import { makeButton } from "../ui/button.js?v=9";
+import { drawBackdrop } from "../ui/background.js?v=10";
+import { makeButton } from "../ui/button.js?v=10";
 
 export default class TitleScene extends Phaser.Scene {
   constructor() {

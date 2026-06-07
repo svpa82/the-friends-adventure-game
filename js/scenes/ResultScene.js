@@ -1,10 +1,10 @@
 // Visas efter en bana: antingen vinst (gyllene pris) eller game over.
 
-import { drawBackdrop } from "../ui/background.js?v=9";
-import { makeButton } from "../ui/button.js?v=9";
-import { getCharacter } from "../data/characters.js?v=9";
-import { LEVEL_COUNT } from "../data/levels.js?v=9";
-import { getCoins } from "../systems/save.js?v=9";
+import { drawBackdrop } from "../ui/background.js?v=10";
+import { makeButton } from "../ui/button.js?v=10";
+import { getCharacter } from "../data/characters.js?v=10";
+import { LEVEL_COUNT } from "../data/levels.js?v=10";
+import { getCoins } from "../systems/save.js?v=10";
 
 export default class ResultScene extends Phaser.Scene {
   constructor() {
