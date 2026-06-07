@@ -1,10 +1,10 @@
 // Välj bana för det valda djuret. Banor låses upp när man klarar den föregående.
 
-import { drawBackdrop } from "../ui/background.js?v=8";
-import { makeButton } from "../ui/button.js?v=8";
-import { getCharacter } from "../data/characters.js?v=8";
-import { LEVELS } from "../data/levels.js?v=8";
-import { getSelectedCharacter, getProgress, getCoins } from "../systems/save.js?v=8";
+import { drawBackdrop } from "../ui/background.js?v=9";
+import { makeButton } from "../ui/button.js?v=9";
+import { getCharacter } from "../data/characters.js?v=9";
+import { LEVELS } from "../data/levels.js?v=9";
+import { getSelectedCharacter, getProgress, getCoins } from "../systems/save.js?v=9";
 
 export default class LevelSelectScene extends Phaser.Scene {
   constructor() {
