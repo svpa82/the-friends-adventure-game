@@ -1,8 +1,8 @@
 // Butik: köp accessoarer för coins och utrusta dem på ditt djur.
 
-import { drawBackdrop } from "../ui/background.js";
-import { makeButton } from "../ui/button.js";
-import { getCharacter } from "../data/characters.js";
+import { drawBackdrop } from "../ui/background.js?v=3";
+import { makeButton } from "../ui/button.js?v=3";
+import { getCharacter } from "../data/characters.js?v=3";
 import {
   getSelectedCharacter,
   getCoins,
@@ -10,7 +10,7 @@ import {
   buyItem,
   getEquipped,
   setEquipped,
-} from "../systems/save.js";
+} from "../systems/save.js?v=3";
 
 export default class ShopScene extends Phaser.Scene {
   constructor() {

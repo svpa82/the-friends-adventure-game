@@ -1,13 +1,13 @@
 // Vännerna – Äventyrsspelet
 // Phaser-config och scen-registrering. Phaser laddas globalt via CDN (se index.html).
 
-import PreloadScene from "./scenes/PreloadScene.js";
-import TitleScene from "./scenes/TitleScene.js";
-import CharacterSelectScene from "./scenes/CharacterSelectScene.js";
-import LevelSelectScene from "./scenes/LevelSelectScene.js";
-import GameScene from "./scenes/GameScene.js";
-import ResultScene from "./scenes/ResultScene.js";
-import ShopScene from "./scenes/ShopScene.js";
+import PreloadScene from "./scenes/PreloadScene.js?v=3";
+import TitleScene from "./scenes/TitleScene.js?v=3";
+import CharacterSelectScene from "./scenes/CharacterSelectScene.js?v=3";
+import LevelSelectScene from "./scenes/LevelSelectScene.js?v=3";
+import GameScene from "./scenes/GameScene.js?v=3";
+import ResultScene from "./scenes/ResultScene.js?v=3";
+import ShopScene from "./scenes/ShopScene.js?v=3";
 
 // Spelets logiska storlek (liggande 16:9). Scale.FIT skalar till skärmen.
 export const GAME_WIDTH = 960;

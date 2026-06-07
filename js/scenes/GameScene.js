@@ -1,11 +1,11 @@
 // Själva hoppbanan. Bygger banan från data, hanterar rörelse, faror,
 // godsaker, hjärtan och målet.
 
-import Controls from "../systems/controls.js";
-import Hud from "../ui/hud.js";
-import { getCharacter, getAccessory } from "../data/characters.js";
-import { getLevel, GROUND_TOP } from "../data/levels.js";
-import { getEquipped, getCoins, addCoins, setProgress } from "../systems/save.js";
+import Controls from "../systems/controls.js?v=3";
+import Hud from "../ui/hud.js?v=3";
+import { getCharacter, getAccessory } from "../data/characters.js?v=3";
+import { getLevel, GROUND_TOP } from "../data/levels.js?v=3";
+import { getEquipped, getCoins, addCoins, setProgress } from "../systems/save.js?v=3";
 
 const MOVE_SPEED = 235;
 const JUMP_VELOCITY = -600;
@@ -375,6 +375,8 @@ export default class GameScene extends Phaser.Scene {
     if (this.finished) return;
     const player = this.player;
 
+    this.controls.update();
+
     // Rörelse vänster/höger
     if (this.controls.isLeft()) {
       player.setVelocityX(-MOVE_SPEED);
@@ -388,7 +390,7 @@ export default class GameScene extends Phaser.Scene {
 
     // Hopp (bara när man står på marken)
     const onGround = player.body.blocked.down || player.body.touching.down;
-    if (onGround && this.controls.jumpJustPressed()) {
+    if (onGround && this.controls.jumpPressed) {
       player.setVelocityY(JUMP_VELOCITY);
     }
 
