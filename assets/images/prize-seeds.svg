@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+  <!-- Pris: solrosfrön (Nalas pris) -->
+  <!-- solros -->
+  <g transform="translate(45 48)">
+    <g fill="#ffcf3f">
+      <ellipse cx="0" cy="-22" rx="6" ry="12"/>
+      <ellipse cx="0" cy="22" rx="6" ry="12"/>
+      <ellipse cx="-22" cy="0" rx="12" ry="6"/>
+      <ellipse cx="22" cy="0" rx="12" ry="6"/>
+      <ellipse cx="-16" cy="-16" rx="9" ry="6" transform="rotate(45)"/>
+      <ellipse cx="16" cy="-16" rx="9" ry="6" transform="rotate(-45)"/>
+      <ellipse cx="-16" cy="16" rx="9" ry="6" transform="rotate(-45)"/>
+      <ellipse cx="16" cy="16" rx="9" ry="6" transform="rotate(45)"/>
+    </g>
+    <circle cx="0" cy="0" r="14" fill="#8a5a2b"/>
+    <!-- frön -->
+    <circle cx="-4" cy="-3" r="2" fill="#3a2a14"/>
+    <circle cx="4" cy="-3" r="2" fill="#3a2a14"/>
+    <circle cx="0" cy="3" r="2" fill="#3a2a14"/>
+    <circle cx="-5" cy="4" r="2" fill="#3a2a14"/>
+    <circle cx="5" cy="4" r="2" fill="#3a2a14"/>
+  </g>
+  <!-- glitter -->
+  <path d="M18 18 l2.5 6 l6 2.5 l-6 2.5 l-2.5 6 l-2.5 -6 l-6 -2.5 l6 -2.5 z" fill="#fff6c4"/>
+  <path d="M72 20 l2 5 l5 2 l-5 2 l-2 5 l-2 -5 l-5 -2 l5 -2 z" fill="#fff6c4"/>
+</svg>

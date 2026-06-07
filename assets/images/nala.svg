@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- Nala – hamster -->
+  <ellipse cx="60" cy="113" rx="30" ry="6" fill="#000" opacity="0.12"/>
+  <!-- öron -->
+  <circle cx="38" cy="30" r="11" fill="#c98f52"/>
+  <circle cx="82" cy="30" r="11" fill="#c98f52"/>
+  <circle cx="38" cy="30" r="6" fill="#f2c9a0"/>
+  <circle cx="82" cy="30" r="6" fill="#f2c9a0"/>
+  <!-- kropp / huvud (rund) -->
+  <ellipse cx="60" cy="64" rx="42" ry="44" fill="#d9a066"/>
+  <!-- ljus mage -->
+  <ellipse cx="60" cy="78" rx="26" ry="28" fill="#f4e0c4"/>
+  <!-- tassar -->
+  <ellipse cx="44" cy="104" rx="9" ry="7" fill="#f2c9a0"/>
+  <ellipse cx="76" cy="104" rx="9" ry="7" fill="#f2c9a0"/>
+  <!-- kinder (typiskt för hamster) -->
+  <circle cx="34" cy="68" r="13" fill="#e8bd86"/>
+  <circle cx="86" cy="68" r="13" fill="#e8bd86"/>
+  <!-- ögon -->
+  <circle cx="46" cy="56" r="7" fill="#2a1d12"/>
+  <circle cx="74" cy="56" r="7" fill="#2a1d12"/>
+  <circle cx="48" cy="53" r="2.4" fill="#fff"/>
+  <circle cx="76" cy="53" r="2.4" fill="#fff"/>
+  <!-- nos -->
+  <ellipse cx="60" cy="66" rx="4.5" ry="3.5" fill="#e87a92"/>
+  <!-- mun -->
+  <path d="M60 69 Q54 75 49 71 M60 69 Q66 75 71 71" stroke="#7a5230" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- framtänder -->
+  <rect x="57" y="70" width="6" height="6" rx="1.5" fill="#fff"/>
+  <!-- rosiga kinder -->
+  <circle cx="30" cy="74" r="4" fill="#ffb3b3" opacity="0.6"/>
+  <circle cx="90" cy="74" r="4" fill="#ffb3b3" opacity="0.6"/>
+</svg>

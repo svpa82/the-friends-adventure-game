@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70">
+  <!-- Fara: torrfoder (skål med torra kulor) -->
+  <ellipse cx="35" cy="64" rx="24" ry="4" fill="#000" opacity="0.12"/>
+  <!-- skål -->
+  <path d="M10 44 L60 44 L54 62 a4 4 0 0 1 -4 3 L20 65 a4 4 0 0 1 -4 -3 Z" fill="#62b2cf"/>
+  <ellipse cx="35" cy="44" rx="25" ry="7" fill="#8fd0e6"/>
+  <!-- torrfoder-kulor -->
+  <circle cx="26" cy="42" r="5" fill="#9b5a2b"/>
+  <circle cx="36" cy="40" r="5" fill="#b06a33"/>
+  <circle cx="46" cy="43" r="5" fill="#8a4f26"/>
+  <circle cx="31" cy="46" r="4.5" fill="#a5612f"/>
+  <circle cx="42" cy="46" r="4.5" fill="#9b5a2b"/>
+  <!-- liten ledsen markering -->
+  <path d="M30 30 L34 26 M40 30 L36 26" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

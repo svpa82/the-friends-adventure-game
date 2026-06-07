@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 80">
+  <!-- Fara: kvast -->
+  <ellipse cx="30" cy="76" rx="18" ry="3" fill="#000" opacity="0.12"/>
+  <!-- skaft -->
+  <rect x="27" y="6" width="6" height="48" rx="3" fill="#b07a3c"/>
+  <!-- borst -->
+  <path d="M16 52 L44 52 L48 74 L12 74 Z" fill="#f0c14b"/>
+  <path d="M16 52 L44 52 L45 58 L15 58 Z" fill="#d89a2e"/>
+  <path d="M18 58 L18 74 M24 58 L23 74 M30 58 L30 74 M36 58 L37 74 M42 58 L43 74" stroke="#c98a26" stroke-width="1.6"/>
+</svg>

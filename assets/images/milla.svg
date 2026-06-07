@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- Milla – hund (krullig pudel-stil) -->
+  <ellipse cx="60" cy="112" rx="34" ry="7" fill="#000" opacity="0.12"/>
+  <!-- öron -->
+  <ellipse cx="26" cy="62" rx="15" ry="22" fill="#e9c483"/>
+  <ellipse cx="94" cy="62" rx="15" ry="22" fill="#e9c483"/>
+  <!-- kropp -->
+  <ellipse cx="60" cy="86" rx="30" ry="26" fill="#f2d59b"/>
+  <ellipse cx="60" cy="92" rx="18" ry="16" fill="#fbeccb"/>
+  <!-- ben -->
+  <ellipse cx="46" cy="108" rx="8" ry="7" fill="#f2d59b"/>
+  <ellipse cx="74" cy="108" rx="8" ry="7" fill="#f2d59b"/>
+  <!-- huvud -->
+  <circle cx="60" cy="50" r="34" fill="#f2d59b"/>
+  <!-- krullig lugg -->
+  <circle cx="42" cy="26" r="11" fill="#f7e1b0"/>
+  <circle cx="60" cy="20" r="12" fill="#f7e1b0"/>
+  <circle cx="78" cy="26" r="11" fill="#f7e1b0"/>
+  <!-- nos -->
+  <ellipse cx="60" cy="58" rx="16" ry="13" fill="#fbeccb"/>
+  <ellipse cx="60" cy="52" rx="6" ry="4.5" fill="#3a2a20"/>
+  <!-- ögon -->
+  <circle cx="48" cy="44" r="6.5" fill="#3a2a20"/>
+  <circle cx="72" cy="44" r="6.5" fill="#3a2a20"/>
+  <circle cx="50" cy="42" r="2.2" fill="#fff"/>
+  <circle cx="74" cy="42" r="2.2" fill="#fff"/>
+  <!-- mun -->
+  <path d="M52 62 Q60 70 68 62" stroke="#3a2a20" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- kinder -->
+  <circle cx="40" cy="56" r="5" fill="#ffb3b3" opacity="0.6"/>
+  <circle cx="80" cy="56" r="5" fill="#ffb3b3" opacity="0.6"/>
+</svg>

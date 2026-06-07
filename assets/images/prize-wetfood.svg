@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+  <!-- Pris: blötfoder (Millas pris) – glittrig skål -->
+  <g>
+    <path d="M18 50 L72 50 L66 70 a5 5 0 0 1 -5 4 L29 74 a5 5 0 0 1 -5 -4 Z" fill="#ffcf3f"/>
+    <ellipse cx="45" cy="50" rx="27" ry="8" fill="#ffe48a"/>
+    <!-- köttbitar i sås -->
+    <ellipse cx="45" cy="49" rx="22" ry="6" fill="#9b4a2b"/>
+    <circle cx="36" cy="48" r="5" fill="#b8623a"/>
+    <circle cx="48" cy="50" r="5" fill="#a3512f"/>
+    <circle cx="56" cy="48" r="4.5" fill="#b8623a"/>
+    <ellipse cx="40" cy="46" rx="3" ry="1.5" fill="#d98a5a"/>
+  </g>
+  <!-- glitter -->
+  <path d="M20 18 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 l7 -3 z" fill="#fff6c4"/>
+  <path d="M70 14 l2 5 l5 2 l-5 2 l-2 5 l-2 -5 l-5 -2 l5 -2 z" fill="#fff6c4"/>
+  <circle cx="45" cy="14" r="2.5" fill="#fff6c4"/>
+</svg>

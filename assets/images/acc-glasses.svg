@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 30">
+  <!-- Accessoar: glasögon -->
+  <circle cx="18" cy="15" r="12" fill="#bfe8fb" opacity="0.5" stroke="#333" stroke-width="3"/>
+  <circle cx="52" cy="15" r="12" fill="#bfe8fb" opacity="0.5" stroke="#333" stroke-width="3"/>
+  <path d="M30 15 Q35 10 40 15" stroke="#333" stroke-width="3" fill="none"/>
+  <path d="M6 12 L1 8 M64 12 L69 8" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+</svg>

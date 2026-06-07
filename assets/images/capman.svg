@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 90">
+  <!-- Fara: man med keps (det Milla är rädd för) -->
+  <ellipse cx="40" cy="86" rx="22" ry="4" fill="#000" opacity="0.12"/>
+  <!-- kropp -->
+  <rect x="24" y="46" width="32" height="34" rx="8" fill="#5b7fd6"/>
+  <!-- armar -->
+  <rect x="14" y="48" width="12" height="26" rx="6" fill="#5b7fd6"/>
+  <rect x="54" y="48" width="12" height="26" rx="6" fill="#5b7fd6"/>
+  <!-- huvud -->
+  <circle cx="40" cy="32" r="16" fill="#f0c9a0"/>
+  <!-- keps -->
+  <path d="M22 28 a18 14 0 0 1 36 0 z" fill="#d64545"/>
+  <ellipse cx="40" cy="28" rx="18" ry="3" fill="#b83434"/>
+  <path d="M40 28 q22 1 26 8 q-14 3 -26 0 z" fill="#c23b3b"/>
+  <!-- arg min -->
+  <circle cx="34" cy="34" r="2.4" fill="#3a2a20"/>
+  <circle cx="46" cy="34" r="2.4" fill="#3a2a20"/>
+  <path d="M28 30 L37 33 M52 30 L43 33" stroke="#3a2a20" stroke-width="2" stroke-linecap="round"/>
+  <path d="M34 42 Q40 38 46 42" stroke="#7a4a3a" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

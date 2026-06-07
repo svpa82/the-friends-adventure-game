@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 40">
+  <!-- Accessoar: halsduk -->
+  <path d="M10 10 Q35 24 60 10 L60 20 Q35 32 10 20 Z" fill="#5bd6a0"/>
+  <path d="M40 18 L52 36 L60 30 L50 16 Z" fill="#46b585"/>
+  <path d="M10 10 Q35 24 60 10" stroke="#3f9e74" stroke-width="2" fill="none"/>
+  <rect x="44" y="22" width="12" height="3" fill="#3f9e74" transform="rotate(55 50 24)"/>
+</svg>

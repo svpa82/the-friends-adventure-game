@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40">
+  <!-- Accessoar: rosett -->
+  <path d="M30 20 L8 8 Q2 6 4 14 L8 20 L4 26 Q2 34 8 32 Z" fill="#ff6fae"/>
+  <path d="M30 20 L52 8 Q58 6 56 14 L52 20 L56 26 Q58 34 52 32 Z" fill="#ff6fae"/>
+  <circle cx="30" cy="20" r="7" fill="#e0568f"/>
+  <ellipse cx="14" cy="14" rx="3" ry="5" fill="#ff97c5" opacity="0.7"/>
+</svg>
