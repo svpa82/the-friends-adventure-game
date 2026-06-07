@@ -23,7 +23,7 @@ export const ITEMS = [
   { id: "crown",      name: "Krona",    texture: "acc-crown",      price: 30, colorable: false, offset: { x: 0, y: -40, scale: 0.6 } },
   { id: "santa",      name: "Tomteluva", texture: "acc-santa",     price: 20, colorable: false, offset: { x: 2, y: -36, scale: 0.6 } },
   { id: "pumpkin",    name: "Pumpa",    texture: "acc-pumpkin",    price: 20, colorable: false, offset: { x: 0, y: -40, scale: 0.55 } },
-  { id: "mario",      name: "Sweet Mario", texture: "acc-mario",   price: 25, colorable: false, offset: { x: 4, y: -34, scale: 0.6 } },
+  { id: "mario",      name: "Super Mario", texture: "acc-mario",   price: 25, colorable: false, offset: { x: 4, y: -34, scale: 0.6 } },
   { id: "orange",     name: "Apelsin",  texture: "acc-orange",     price: 10, colorable: false, offset: { x: 0, y: -42, scale: 0.5 } },
   { id: "wings",      name: "Ängla-vingar", texture: "acc-wings",  price: 25, colorable: false, offset: { x: 0, y: -6, scale: 0.85 } },
   { id: "tophat",     name: "Hatt & monokel", texture: "acc-tophat", price: 30, colorable: false, offset: { x: 2, y: -36, scale: 0.62 } },
