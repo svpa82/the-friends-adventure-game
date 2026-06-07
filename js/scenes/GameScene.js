@@ -1,12 +1,12 @@
 // Själva hoppbanan. Bygger banan från data, hanterar rörelse, faror,
 // godsaker, hjärtan och målet.
 
-import Controls from "../systems/controls.js?v=7";
-import Hud from "../ui/hud.js?v=7";
-import { getCharacter } from "../data/characters.js?v=7";
-import { getItem } from "../data/items.js?v=7";
-import { getLevel, GROUND_TOP } from "../data/levels.js?v=7";
-import { getEquipped, getItemColor, getCoins, addCoins, setProgress } from "../systems/save.js?v=7";
+import Controls from "../systems/controls.js?v=8";
+import Hud from "../ui/hud.js?v=8";
+import { getCharacter } from "../data/characters.js?v=8";
+import { getItem } from "../data/items.js?v=8";
+import { getLevel, GROUND_TOP } from "../data/levels.js?v=8";
+import { getEquipped, getItemColor, getCoins, addCoins, setProgress } from "../systems/save.js?v=8";
 
 const MOVE_SPEED = 235;
 const JUMP_VELOCITY = -600;

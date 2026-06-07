@@ -2,10 +2,10 @@
 // Samma sortiment för alla djur (js/data/items.js). Många föremål => sidor.
 // Färgbara föremål (rosett/keps/hatt): köp en gång => byt färg fritt via paletten.
 
-import { drawBackdrop } from "../ui/background.js?v=7";
-import { makeButton } from "../ui/button.js?v=7";
-import { getCharacter } from "../data/characters.js?v=7";
-import { ITEMS, COLORS } from "../data/items.js?v=7";
+import { drawBackdrop } from "../ui/background.js?v=8";
+import { makeButton } from "../ui/button.js?v=8";
+import { getCharacter } from "../data/characters.js?v=8";
+import { ITEMS, COLORS } from "../data/items.js?v=8";
 import {
   getSelectedCharacter,
   getCoins,
@@ -15,7 +15,7 @@ import {
   setEquipped,
   getItemColor,
   setItemColor,
-} from "../systems/save.js?v=7";
+} from "../systems/save.js?v=8";
 
 const PER_PAGE = 4;
 

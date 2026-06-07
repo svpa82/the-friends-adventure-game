@@ -1,9 +1,9 @@
 // Välj djur: Nala, Pompom eller Milla. Valet sparas.
 
-import { drawBackdrop } from "../ui/background.js?v=7";
-import { makeButton } from "../ui/button.js?v=7";
-import { CHARACTER_ORDER, getCharacter } from "../data/characters.js?v=7";
-import { setSelectedCharacter, getCoins } from "../systems/save.js?v=7";
+import { drawBackdrop } from "../ui/background.js?v=8";
+import { makeButton } from "../ui/button.js?v=8";
+import { CHARACTER_ORDER, getCharacter } from "../data/characters.js?v=8";
+import { setSelectedCharacter, getCoins } from "../systems/save.js?v=8";
 
 export default class CharacterSelectScene extends Phaser.Scene {
   constructor() {
