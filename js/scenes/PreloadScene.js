@@ -79,7 +79,7 @@ export default class PreloadScene extends Phaser.Scene {
     });
 
     // Ladda alla bilder. ?v bustar webbläsarens cache när grafiken uppdateras.
-    const ASSET_VER = "5";
+    const ASSET_VER = "7";
     this.load.path = "assets/images/";
     IMAGES.forEach(([key, file, w, h]) => {
       this.load.svg(key, `${file}?v=${ASSET_VER}`, { width: w, height: h });

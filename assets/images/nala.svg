@@ -1,33 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <!-- Nala – hamster -->
+  <!-- Nala – grå/silver dvärghamster -->
   <ellipse cx="60" cy="113" rx="30" ry="6" fill="#000" opacity="0.12"/>
   <!-- öron -->
-  <circle cx="38" cy="30" r="11" fill="#c98f52"/>
-  <circle cx="82" cy="30" r="11" fill="#c98f52"/>
-  <circle cx="38" cy="30" r="6" fill="#f2c9a0"/>
-  <circle cx="82" cy="30" r="6" fill="#f2c9a0"/>
-  <!-- kropp / huvud (rund) -->
-  <ellipse cx="60" cy="64" rx="42" ry="44" fill="#d9a066"/>
+  <circle cx="40" cy="30" r="11" fill="#8f857a"/>
+  <circle cx="80" cy="30" r="11" fill="#8f857a"/>
+  <circle cx="40" cy="31" r="5.5" fill="#e9c3c8"/>
+  <circle cx="80" cy="31" r="5.5" fill="#e9c3c8"/>
+  <!-- kropp / huvud -->
+  <ellipse cx="60" cy="64" rx="42" ry="44" fill="#b3a99a"/>
+  <!-- mörkare rygg/hjässa (agouti) -->
+  <path d="M60 21 C36 21 22 40 22 60 C22 50 40 44 60 44 C80 44 98 50 98 60 C98 40 84 21 60 21Z" fill="#8a8073"/>
+  <!-- mörk rygg-rand -->
+  <path d="M60 22 L60 46" stroke="#6f665b" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
   <!-- ljus mage -->
-  <ellipse cx="60" cy="78" rx="26" ry="28" fill="#f4e0c4"/>
+  <ellipse cx="60" cy="80" rx="27" ry="27" fill="#f3eee5"/>
+  <!-- ljusgrå kindpåsar -->
+  <circle cx="33" cy="70" r="13" fill="#cabfae"/>
+  <circle cx="87" cy="70" r="13" fill="#cabfae"/>
   <!-- tassar -->
-  <ellipse cx="44" cy="104" rx="9" ry="7" fill="#f2c9a0"/>
-  <ellipse cx="76" cy="104" rx="9" ry="7" fill="#f2c9a0"/>
-  <!-- kinder (typiskt för hamster) -->
-  <circle cx="34" cy="68" r="13" fill="#e8bd86"/>
-  <circle cx="86" cy="68" r="13" fill="#e8bd86"/>
+  <ellipse cx="44" cy="104" rx="9" ry="7" fill="#efe7da"/>
+  <ellipse cx="76" cy="104" rx="9" ry="7" fill="#efe7da"/>
   <!-- ögon -->
-  <circle cx="46" cy="56" r="7" fill="#2a1d12"/>
-  <circle cx="74" cy="56" r="7" fill="#2a1d12"/>
-  <circle cx="48" cy="53" r="2.4" fill="#fff"/>
-  <circle cx="76" cy="53" r="2.4" fill="#fff"/>
+  <circle cx="46" cy="57" r="7.5" fill="#241b13"/>
+  <circle cx="74" cy="57" r="7.5" fill="#241b13"/>
+  <circle cx="48.5" cy="54" r="2.6" fill="#fff"/>
+  <circle cx="76.5" cy="54" r="2.6" fill="#fff"/>
   <!-- nos -->
-  <ellipse cx="60" cy="66" rx="4.5" ry="3.5" fill="#e87a92"/>
+  <ellipse cx="60" cy="67" rx="4.5" ry="3.4" fill="#e58aa0"/>
   <!-- mun -->
-  <path d="M60 69 Q54 75 49 71 M60 69 Q66 75 71 71" stroke="#7a5230" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M60 70 Q54 76 49 72 M60 70 Q66 76 71 72" stroke="#7a6e60" stroke-width="2" fill="none" stroke-linecap="round"/>
   <!-- framtänder -->
-  <rect x="57" y="70" width="6" height="6" rx="1.5" fill="#fff"/>
+  <rect x="57.5" y="71" width="5" height="6" rx="1.5" fill="#fff"/>
   <!-- rosiga kinder -->
-  <circle cx="30" cy="74" r="4" fill="#ffb3b3" opacity="0.6"/>
-  <circle cx="90" cy="74" r="4" fill="#ffb3b3" opacity="0.6"/>
+  <circle cx="29" cy="76" r="4" fill="#ffb3b3" opacity="0.55"/>
+  <circle cx="91" cy="76" r="4" fill="#ffb3b3" opacity="0.55"/>
 </svg>

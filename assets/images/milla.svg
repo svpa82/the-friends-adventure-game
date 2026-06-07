@@ -1,32 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <!-- Milla – hund (krullig pudel-stil) -->
-  <ellipse cx="60" cy="112" rx="34" ry="7" fill="#000" opacity="0.12"/>
-  <!-- öron -->
-  <ellipse cx="26" cy="62" rx="15" ry="22" fill="#e9c483"/>
-  <ellipse cx="94" cy="62" rx="15" ry="22" fill="#e9c483"/>
-  <!-- kropp -->
-  <ellipse cx="60" cy="86" rx="30" ry="26" fill="#f2d59b"/>
-  <ellipse cx="60" cy="92" rx="18" ry="16" fill="#fbeccb"/>
+  <!-- Milla – Maltipoo (ljus aprikos/krämig, fluffig & lockig) -->
+  <ellipse cx="60" cy="113" rx="34" ry="6" fill="#000" opacity="0.12"/>
+  <!-- fluffiga öron (lockklumpar) -->
+  <g fill="#e3cda2">
+    <circle cx="24" cy="52" r="11"/><circle cx="20" cy="66" r="10"/><circle cx="26" cy="78" r="9"/>
+    <circle cx="96" cy="52" r="11"/><circle cx="100" cy="66" r="10"/><circle cx="94" cy="78" r="9"/>
+  </g>
+  <!-- kropp med lockig kant -->
+  <g fill="#ecd9b6">
+    <circle cx="38" cy="92" r="12"/><circle cx="54" cy="100" r="13"/><circle cx="70" cy="100" r="13"/>
+    <circle cx="84" cy="92" r="12"/><circle cx="46" cy="84" r="12"/><circle cx="76" cy="84" r="12"/>
+  </g>
+  <ellipse cx="60" cy="88" rx="30" ry="24" fill="#ecd9b6"/>
+  <ellipse cx="60" cy="93" rx="17" ry="15" fill="#f8eeda"/>
   <!-- ben -->
-  <ellipse cx="46" cy="108" rx="8" ry="7" fill="#f2d59b"/>
-  <ellipse cx="74" cy="108" rx="8" ry="7" fill="#f2d59b"/>
+  <ellipse cx="48" cy="108" rx="8" ry="7" fill="#f1e2c4"/>
+  <ellipse cx="74" cy="108" rx="8" ry="7" fill="#f1e2c4"/>
   <!-- huvud -->
-  <circle cx="60" cy="50" r="34" fill="#f2d59b"/>
-  <!-- krullig lugg -->
-  <circle cx="42" cy="26" r="11" fill="#f7e1b0"/>
-  <circle cx="60" cy="20" r="12" fill="#f7e1b0"/>
-  <circle cx="78" cy="26" r="11" fill="#f7e1b0"/>
-  <!-- nos -->
-  <ellipse cx="60" cy="58" rx="16" ry="13" fill="#fbeccb"/>
-  <ellipse cx="60" cy="52" rx="6" ry="4.5" fill="#3a2a20"/>
+  <circle cx="60" cy="50" r="34" fill="#ecd9b6"/>
+  <!-- lockig lugg/topp -->
+  <g fill="#f3e3c4">
+    <circle cx="36" cy="30" r="12"/><circle cx="50" cy="22" r="13"/>
+    <circle cx="70" cy="22" r="13"/><circle cx="84" cy="30" r="12"/>
+    <circle cx="60" cy="18" r="12"/>
+  </g>
+  <!-- lockiga kinder -->
+  <circle cx="32" cy="58" r="11" fill="#f0dfbf"/>
+  <circle cx="88" cy="58" r="11" fill="#f0dfbf"/>
+  <!-- nosparti -->
+  <ellipse cx="60" cy="60" rx="17" ry="14" fill="#f8eeda"/>
   <!-- ögon -->
-  <circle cx="48" cy="44" r="6.5" fill="#3a2a20"/>
-  <circle cx="72" cy="44" r="6.5" fill="#3a2a20"/>
-  <circle cx="50" cy="42" r="2.2" fill="#fff"/>
-  <circle cx="74" cy="42" r="2.2" fill="#fff"/>
+  <circle cx="48" cy="46" r="6.8" fill="#34271c"/>
+  <circle cx="72" cy="46" r="6.8" fill="#34271c"/>
+  <circle cx="50.2" cy="43.5" r="2.3" fill="#fff"/>
+  <circle cx="74.2" cy="43.5" r="2.3" fill="#fff"/>
+  <!-- nos -->
+  <ellipse cx="60" cy="55" rx="6.5" ry="5" fill="#2e231b"/>
+  <ellipse cx="58" cy="53.5" rx="2" ry="1.4" fill="#6b5848"/>
   <!-- mun -->
-  <path d="M52 62 Q60 70 68 62" stroke="#3a2a20" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-  <!-- kinder -->
-  <circle cx="40" cy="56" r="5" fill="#ffb3b3" opacity="0.6"/>
-  <circle cx="80" cy="56" r="5" fill="#ffb3b3" opacity="0.6"/>
+  <path d="M60 60 L60 64 M60 64 Q54 69 49 65 M60 64 Q66 69 71 65" stroke="#3a2a20" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <!-- rosiga kinder -->
+  <circle cx="38" cy="62" r="4.5" fill="#ffb3a8" opacity="0.5"/>
+  <circle cx="82" cy="62" r="4.5" fill="#ffb3a8" opacity="0.5"/>
 </svg>
