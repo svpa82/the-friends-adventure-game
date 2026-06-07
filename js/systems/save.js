@@ -9,6 +9,7 @@ const DEFAULT_SAVE = {
   owned: { nala: [], pompom: [], milla: [] }, // köpta accessoarer per djur
   equipped: { nala: null, pompom: null, milla: null }, // utrustad accessoar per djur
   progress: { nala: 0, pompom: 0, milla: 0 }, // antal klarade banor per djur
+  itemColors: {}, // vald färg per färgbart föremål: { itemId: 0xRRGGBB }
 };
 
 function deepClone(obj) {
@@ -29,6 +30,7 @@ export function load() {
       cache.owned = Object.assign(deepClone(DEFAULT_SAVE.owned), cache.owned);
       cache.equipped = Object.assign(deepClone(DEFAULT_SAVE.equipped), cache.equipped);
       cache.progress = Object.assign(deepClone(DEFAULT_SAVE.progress), cache.progress);
+      cache.itemColors = Object.assign({}, cache.itemColors);
     }
   } catch (e) {
     cache = deepClone(DEFAULT_SAVE);
@@ -102,6 +104,18 @@ export function getEquipped(charId) {
 
 export function setEquipped(charId, itemId) {
   load().equipped[charId] = itemId;
+  save();
+}
+
+// Vald färg för ett färgbart föremål (delas mellan alla djur).
+// Returnerar null om ingen färg valts – då används föremålets defaultColor.
+export function getItemColor(itemId) {
+  const c = load().itemColors[itemId];
+  return c === undefined ? null : c;
+}
+
+export function setItemColor(itemId, color) {
+  load().itemColors[itemId] = color;
   save();
 }
 

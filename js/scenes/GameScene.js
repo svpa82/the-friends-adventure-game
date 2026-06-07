@@ -1,23 +1,16 @@
 // Själva hoppbanan. Bygger banan från data, hanterar rörelse, faror,
 // godsaker, hjärtan och målet.
 
-import Controls from "../systems/controls.js?v=3";
-import Hud from "../ui/hud.js?v=3";
-import { getCharacter, getAccessory } from "../data/characters.js?v=3";
-import { getLevel, GROUND_TOP } from "../data/levels.js?v=3";
-import { getEquipped, getCoins, addCoins, setProgress } from "../systems/save.js?v=3";
+import Controls from "../systems/controls.js?v=5";
+import Hud from "../ui/hud.js?v=5";
+import { getCharacter } from "../data/characters.js?v=5";
+import { getItem } from "../data/items.js?v=5";
+import { getLevel, GROUND_TOP } from "../data/levels.js?v=5";
+import { getEquipped, getItemColor, getCoins, addCoins, setProgress } from "../systems/save.js?v=5";
 
 const MOVE_SPEED = 235;
 const JUMP_VELOCITY = -600;
 const MAX_HEARTS = 3;
-
-// Var en accessoar sitter på djuret (förskjutning från mitten, i skärm-px).
-const ACC_OFFSET = {
-  bow: { x: 0, y: -30, scale: 0.55 },
-  crown: { x: 0, y: -40, scale: 0.6 },
-  glasses: { x: 0, y: -12, scale: 0.6 },
-  scarf: { x: 0, y: 14, scale: 0.6 },
-};
 
 export default class GameScene extends Phaser.Scene {
   constructor() {
@@ -240,12 +233,15 @@ export default class GameScene extends Phaser.Scene {
     this.player.body.setSize(96, 128).setOffset(37, 32);
 
     // Utrustad accessoar (om någon köpts + valts)
-    const accId = getEquipped(this.charId);
-    const acc = getAccessory(this.charId, accId);
-    if (acc) {
-      const off = ACC_OFFSET[acc.id] || { x: 0, y: -30, scale: 0.55 };
-      this.accessory = this.add.image(this.player.x, this.player.y, acc.texture);
+    const item = getItem(getEquipped(this.charId));
+    if (item) {
+      const off = item.offset;
+      this.accessory = this.add.image(this.player.x, this.player.y, item.texture);
       this.accessory.setScale(off.scale).setDepth(6);
+      if (item.colorable) {
+        const color = getItemColor(item.id);
+        this.accessory.setTint(color === null ? item.defaultColor : color);
+      }
       this._accOffset = off;
     }
   }

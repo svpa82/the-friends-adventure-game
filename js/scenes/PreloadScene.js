@@ -19,11 +19,22 @@ const IMAGES = [
   ["prize-wetfood", "prize-wetfood.svg", 120, 120],
   ["prize-fish", "prize-fish.svg", 120, 120],
   ["prize-seeds", "prize-seeds.svg", 120, 120],
-  // accessoarer
+  // accessoarer (gemensam butiks-katalog, se js/data/items.js)
   ["acc-bow", "acc-bow.svg", 70, 47],
-  ["acc-glasses", "acc-glasses.svg", 84, 36],
+  ["acc-cap", "acc-cap.svg", 84, 53],
+  ["acc-hat", "acc-hat.svg", 86, 60],
   ["acc-crown", "acc-crown.svg", 72, 48],
-  ["acc-scarf", "acc-scarf.svg", 84, 48],
+  ["acc-heart", "acc-heart.svg", 60, 55],
+  ["acc-donut", "acc-donut.svg", 64, 64],
+  ["acc-sunglasses", "acc-sunglasses.svg", 90, 36],
+  ["acc-nerd", "acc-nerd.svg", 90, 39],
+  ["acc-santa", "acc-santa.svg", 80, 58],
+  ["acc-pumpkin", "acc-pumpkin.svg", 70, 62],
+  ["acc-mario", "acc-mario.svg", 90, 57],
+  ["acc-orange", "acc-orange.svg", 58, 60],
+  ["acc-wings", "acc-wings.svg", 120, 67],
+  ["acc-tophat", "acc-tophat.svg", 80, 70],
+  ["acc-poop", "acc-poop.svg", 70, 62],
   // hud
   ["heart", "heart.svg", 44, 40],
 ];
@@ -67,10 +78,11 @@ export default class PreloadScene extends Phaser.Scene {
       bar.fillRoundedRect(barX + 4, barY + 4, (barW - 8) * p, 18, 9);
     });
 
-    // Ladda alla bilder
+    // Ladda alla bilder. ?v bustar webbläsarens cache när grafiken uppdateras.
+    const ASSET_VER = "5";
     this.load.path = "assets/images/";
     IMAGES.forEach(([key, file, w, h]) => {
-      this.load.svg(key, file, { width: w, height: h });
+      this.load.svg(key, `${file}?v=${ASSET_VER}`, { width: w, height: h });
     });
   }
 
