@@ -31,6 +31,10 @@ const config = {
       debug: false,
     },
   },
+  // Tillåt flera fingrar samtidigt (gå + hoppa på mobil). Standard är bara 1.
+  input: {
+    activePointers: 3,
+  },
   scene: [
     PreloadScene,
     TitleScene,
